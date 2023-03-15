@@ -1,0 +1,123 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP MIC4428YMM
+D Micrel MIC4428YMM, Dual MOSFET Power Driver 1.5A, 4.5  18 V, 8-Pin MSOP
+K
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic4426.pdf
+$ENDCMP
+#
+$CMP VNLD5090-E
+D Gate Drivers OMNIFET III fully protect lo-side drvr
+K
+F https://www.st.com/resource/en/datasheet/vnld5090-e.pdf
+$ENDCMP
+#
+$CMP BTS716GB
+D Power Switch ICs - Power Distribution SMART HI SIDE PWR SWITCH INDUSTRY APP
+K
+F https://componentsearchengine.com/Datasheets/2/BTS716GB.pdf
+$ENDCMP
+#
+$CMP PSM712-LF-T7
+D ESD Suppressor TVS Bi-Dir 12V/7V 3-Pin SOT-23 T/R
+K
+F https://www.arrow.com/en/products/psm712-lf-t7/protek-devices
+$ENDCMP
+#
+$CMP 39291088
+D Mini-Fit Jr. Header, Dual Row, Right-Angle, with PCB Mounting Flange, 8 Circuits, PA Polyamide Nylon 6/6 94V-0
+K
+F https://www.molex.com/pdm_docs/sd/039291027_sd.pdf
+$ENDCMP
+#
+$CMP 39301080
+D Mini-Fit Jr. Header, Dual Row, Right-Angle, with Snap-in Plastic Peg PCB Lock, 8 Circuits, PA Polyamide Nylon 6/6 94V-0
+K
+F https://www.molex.com/pdm_docs/sd/039300020_sd.pdf
+$ENDCMP
+#
+$CMP LM1949N_NOPB
+D Texas Instruments LM1949N/NOPB, Peripheral Driver, 8-Pin, MDIP
+K
+F http://www.ti.com/lit/gpn/lm1949
+$ENDCMP
+#
+$CMP 2N6044
+D Bipolar Junction Transistor, Darlington, NPN Type, TO-220AB
+K
+F https://g.componentsearchengine.com/Datasheets/1/2N6044.pdf
+$ENDCMP
+#
+$CMP TIP42C
+D Bourns TIP42C PNP Bipolar Transistor, 6 A, 100 V, 3-Pin TO-220
+K
+F https://www.onsemi.com/pub/Collateral/TIP42C-D.PDF
+$ENDCMP
+#
+$CMP 172648-0102
+D Mini-Fit Jr. Header, Single Row, Right-Angle, with Snap-in Plastic Peg PCB Lock, 2 Circuits, PA Polyamide Nylon 6/6, 94V-2
+K
+F https://www.molex.com/pdm_docs/sd/1726480102_sd.pdf
+$ENDCMP
+#
+$CMP 26013115
+D Mini-Fit Jr. Header, Dual Row, Right-Angle, with Snap-in Plastic Peg PCB Lock, 4 Circuits
+K
+F https://www.molex.com/pdm_docs/sd/026013108_sd.pdf
+$ENDCMP
+#
+$CMP MAX9926UAEE_V+
+D Sensor Interface Variable-Reluctance Sensor Interface
+K
+F https://componentsearchengine.com/Datasheets/1/MAX9926UAEE_V+.pdf
+$ENDCMP
+#
+$CMP IRF5305PBF
+D MOSFET P-Channel 55V 31A TO220AB International Rectifier IRF5305PBF P-channel MOSFET Transistor, 31 A, 55 V, 3-Pin TO-220AB
+K
+F https://www.infineon.com/dgdl/irf5305pbf.pdf?fileId=5546d462533600a4015355e370101993
+$ENDCMP
+#
+$CMP IRFR5305TRLPBF
+D MOSFET MOSFT PCh -55V -28A 65mOhm 42nC
+K
+F https://www.infineon.com/dgdl/irf5305pbf.pdf?fileId=5546d462533600a4015355e370101993
+$ENDCMP
+#
+$CMP 39281203
+D Mini-Fit Jr. Vertical Header, 4.20mm Pitch, Dual Row, 20 Circuits, without Snap-in Plastic Peg PCB Lock, Tin, Natural
+K
+F https://www.molex.com/pdm_docs/sd/039281023_sd.pdf
+$ENDCMP
+#
+$CMP 430452000
+D Micro-Fit 3.0 Right-Angle Header, 3.00mm Pitch, Dual Row, 20 Circuits, with Snap-in Plastic Peg PCB Lock
+K
+F https://www.molex.com/pdm_docs/sd/430450200_sd.pdf
+$ENDCMP
+#
+$CMP 430452412
+D Micro-Fit 3.0 Right-Angle Header, 3.00mm Pitch, Dual Row, 24 Circuits, with Solder Tab, Glow-Wire Capable, Black, Tape and Reel
+K
+F https://www.molex.com/pdm_docs/sd/430450209_sd.pdf
+$ENDCMP
+#
+$CMP 430452420
+D Micro-Fit 3.0 Vertical Header, 3.00mm Pitch, Dual Row, 24 Circuits, with PCB Press-fit Metal Retention Clip, Glow-Wire Capable, Black, Tape and Reel
+K
+F https://www.molex.com/pdm_docs/sd/430450215_sd.pdf
+$ENDCMP
+#
+$CMP 430452429
+D Micro-Fit 3.0 Vertical Header, 3.00mm Pitch, Dual Row, 24 Circuits, with PCB Polarizing Peg, Glow-Wire Capable, Black
+K
+F https://www.molex.com/pdm_docs/sd/430450227_sd.pdf
+$ENDCMP
+#
+#End Doc Library
