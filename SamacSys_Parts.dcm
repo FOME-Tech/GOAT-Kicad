@@ -120,4 +120,16 @@ K
 F https://www.molex.com/pdm_docs/sd/430450227_sd.pdf
 $ENDCMP
 #
+$CMP PN2222A
+D Bipolar Transistors - BJT NPN,1A,40V GenPur
+K
+F https://static6.arrow.com/aropdfconversion/cc8c8026b26b6afddbc1a235c72fd46cc086ba2f/pn2222a.pdf
+$ENDCMP
+#
+$CMP P2N2907A
+D Bipolar Transistors - BJT 600mA 60V PNP
+K
+F https://componentsearchengine.com/Datasheets/1/P2N2907A.pdf
+$ENDCMP
+#
 #End Doc Library

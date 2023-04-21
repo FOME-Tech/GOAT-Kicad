@@ -664,5 +664,65 @@ P 5 0 1 6 200 100 700 100 700 -1200 200 -1200 200 100 N
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model PN2222A
+#/1170192/927682/2.50/3/4/Transistor BJT NPN
+DEF PN2222A Q 0 30 Y Y 1 F N
+F0 "Q" 550 50 50 H V L CNN
+F1 "PN2222A" 550 -50 50 H V L CNN
+F2 "PN2222A" 550 -150 50 H I L CNN
+F3 "https://static6.arrow.com/aropdfconversion/cc8c8026b26b6afddbc1a235c72fd46cc086ba2f/pn2222a.pdf" 550 -250 50 H I L CNN
+F4 "Bipolar Transistors - BJT NPN,1A,40V GenPur" 550 -350 50 H I L CNN "Description"
+F5 "4.6" 550 -450 50 H I L CNN "Height"
+F6 "Rectron" 550 -550 50 H I L CNN "Manufacturer_Name"
+F7 "PN2222A" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+F8 "583-PN2222A" 550 -750 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Rectron/PN2222A?qs=7pEAo90IqNGMEAVNhAaC1Q%3D%3D" 550 -850 50 H I L CNN "Mouser Price/Stock"
+F10 "PN2222A" 550 -950 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/pn2222a/rectron?region=nac" 550 -1050 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 2 0 0 100 R 50 50 0 0 P
+X ~ 1 400 -300 100 U 50 50 0 0 P
+X ~ 3 400 300 100 D 50 50 0 0 P
+P 2 0 1 20 300 100 300 -100 N
+P 2 0 1 6 300 50 400 150 N
+P 2 0 1 6 300 -50 400 -150 N
+P 2 0 1 6 400 -150 400 -200 N
+P 2 0 1 6 400 150 400 200 N
+P 2 0 1 6 100 0 300 0 N
+C 350 0 158 0 1 10 N
+P 4 0 1 10 330 -100 350 -80 370 -120 330 -100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model P2N2907A
+#/542017/927682/2.50/3/4/Transistor BJT PNP
+DEF P2N2907A Q 0 30 Y Y 1 F N
+F0 "Q" 550 50 50 H V L CNN
+F1 "P2N2907A" 550 -50 50 H V L CNN
+F2 "TO-92_(TO-226)" 550 -150 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/P2N2907A.pdf" 550 -250 50 H I L CNN
+F4 "Bipolar Transistors - BJT 600mA 60V PNP" 550 -350 50 H I L CNN "Description"
+F5 "5.33" 550 -450 50 H I L CNN "Height"
+F6 "onsemi" 550 -550 50 H I L CNN "Manufacturer_Name"
+F7 "P2N2907A" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+F8 "863-P2N2907A" 550 -750 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/onsemi/P2N2907A?qs=ZXBb0xZ9WeBZZI8KUaXVsw%3D%3D" 550 -850 50 H I L CNN "Mouser Price/Stock"
+F10 "" 550 -950 50 H I L CNN "Arrow Part Number"
+F11 "" 550 -1050 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 2 0 0 100 R 50 50 0 0 P
+X ~ 3 400 -300 100 U 50 50 0 0 P
+X ~ 1 400 300 100 D 50 50 0 0 P
+P 2 0 1 20 300 100 300 -100 N
+P 2 0 1 6 300 50 400 150 N
+P 2 0 1 6 300 -50 400 -150 N
+P 2 0 1 6 400 -150 400 -200 N
+P 2 0 1 6 400 150 400 200 N
+P 2 0 1 6 100 0 300 0 N
+C 350 0 158 0 1 10 N
+P 4 0 1 10 380 -110 360 -130 340 -90 380 -110 F
+ENDDRAW
+ENDDEF
+#
 #End Library
 
