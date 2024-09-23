@@ -8406,7 +8406,7 @@
       )
       (pin passive line (at -2.54 -132.08 0) (length 3.81)
         (name "Pin_51" (effects (font (size 1.27 1.27))))
-        (number "50" (effects (font (size 1.27 1.27))))
+        (number "51" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at -2.54 -134.62 0) (length 3.81)
         (name "Pin_52" (effects (font (size 1.27 1.27))))
