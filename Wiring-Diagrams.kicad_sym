@@ -82,7 +82,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 1.27 90)
+				(at 10.16 -7.62 270)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -99,10 +99,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 13.97 1.27 90)
+			(pin output line
+				(at 13.97 -7.62 270)
 				(length 2.54)
-				(name "5v_Trig"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -117,10 +117,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 17.78 1.27 90)
+			(pin input line
+				(at 17.78 -7.62 270)
 				(length 2.54)
-				(name "GND"
+				(name "5v_Trig"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -578,7 +578,7 @@
 		(symbol "Injector_0_1"
 			(rectangle
 				(start 2.54 3.81)
-				(end 7.62 -6.35)
+				(end 7.62 -7.62)
 				(stroke
 					(width 0)
 					(type default)
@@ -590,7 +590,7 @@
 		)
 		(symbol "Injector_1_1"
 			(pin input line
-				(at 3.81 3.81 90)
+				(at 5.08 3.81 90)
 				(length 2.54)
 				(name "12V_in"
 					(effects
@@ -608,7 +608,7 @@
 				)
 			)
 			(pin output line
-				(at 6.35 3.81 90)
+				(at 5.08 -7.62 270)
 				(length 2.54)
 				(name "Trig"
 					(effects
