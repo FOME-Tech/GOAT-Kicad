@@ -52,7 +52,7 @@
 		(symbol "Coil_0_1"
 			(rectangle
 				(start 3.81 1.27)
-				(end 19.05 -7.62)
+				(end 19.05 -10.16)
 				(stroke
 					(width 0)
 					(type default)
@@ -64,7 +64,7 @@
 		)
 		(symbol "Coil_1_1"
 			(pin input line
-				(at 6.35 1.27 90)
+				(at 6.35 1.27 270)
 				(length 2.54)
 				(name "12V_in"
 					(effects
@@ -82,7 +82,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 1.27 90)
+				(at 10.16 -10.16 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -99,10 +99,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 13.97 1.27 90)
+			(pin output line
+				(at 13.97 -10.16 90)
 				(length 2.54)
-				(name "5v_Trig"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -117,10 +117,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 17.78 1.27 90)
+			(pin input line
+				(at 17.78 -10.16 90)
 				(length 2.54)
-				(name "GND"
+				(name "5v_Trig"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -188,7 +188,7 @@
 		(symbol "ETB_0_1"
 			(rectangle
 				(start 2.54 1.27)
-				(end 26.67 -7.62)
+				(end 26.67 -13.97)
 				(stroke
 					(width 0)
 					(type default)
@@ -200,7 +200,7 @@
 		)
 		(symbol "ETB_1_1"
 			(pin input line
-				(at 5.08 1.27 90)
+				(at 5.08 1.27 270)
 				(length 2.54)
 				(name "5v_in"
 					(effects
@@ -218,7 +218,7 @@
 				)
 			)
 			(pin output line
-				(at 8.89 1.27 90)
+				(at 8.89 1.27 270)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -236,7 +236,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 1.27 90)
+				(at 12.7 1.27 270)
 				(length 2.54)
 				(name "Motor+"
 					(effects
@@ -254,7 +254,7 @@
 				)
 			)
 			(pin input line
-				(at 16.51 1.27 90)
+				(at 16.51 1.27 270)
 				(length 2.54)
 				(name "Motor-"
 					(effects
@@ -272,7 +272,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 1.27 90)
+				(at 20.32 1.27 270)
 				(length 2.54)
 				(name "TPS_Prime"
 					(effects
@@ -290,7 +290,7 @@
 				)
 			)
 			(pin output line
-				(at 24.13 1.27 90)
+				(at 24.13 1.27 270)
 				(length 2.54)
 				(name "TPS_Sec"
 					(effects
@@ -360,7 +360,7 @@
 		(symbol "Fuel_Pump_0_1"
 			(rectangle
 				(start 2.54 2.54)
-				(end 7.62 -7.62)
+				(end 7.62 -17.78)
 				(stroke
 					(width 0)
 					(type default)
@@ -372,7 +372,7 @@
 		)
 		(symbol "Fuel_Pump_1_1"
 			(pin input line
-				(at 5.08 2.54 90)
+				(at 5.08 2.54 270)
 				(length 2.54)
 				(name "12V_in"
 					(effects
@@ -390,7 +390,7 @@
 				)
 			)
 			(pin output line
-				(at 5.08 -7.62 270)
+				(at 5.08 -17.78 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -460,7 +460,7 @@
 		(symbol "Hall_0_1"
 			(rectangle
 				(start 1.27 2.54)
-				(end 16.51 -6.35)
+				(end 16.51 -12.7)
 				(stroke
 					(width 0)
 					(type default)
@@ -472,7 +472,7 @@
 		)
 		(symbol "Hall_1_1"
 			(pin input line
-				(at 3.81 2.54 90)
+				(at 3.81 2.54 270)
 				(length 2.54)
 				(name "Power_In"
 					(effects
@@ -490,7 +490,7 @@
 				)
 			)
 			(pin output line
-				(at 8.89 2.54 90)
+				(at 8.89 -12.7 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -508,7 +508,7 @@
 				)
 			)
 			(pin output line
-				(at 13.97 2.54 90)
+				(at 13.97 -12.7 90)
 				(length 2.54)
 				(name "SIG"
 					(effects
@@ -578,7 +578,7 @@
 		(symbol "Injector_0_1"
 			(rectangle
 				(start 2.54 3.81)
-				(end 7.62 -6.35)
+				(end 7.62 -13.97)
 				(stroke
 					(width 0)
 					(type default)
@@ -590,7 +590,7 @@
 		)
 		(symbol "Injector_1_1"
 			(pin input line
-				(at 3.81 3.81 90)
+				(at 5.08 3.81 270)
 				(length 2.54)
 				(name "12V_in"
 					(effects
@@ -608,9 +608,109 @@
 				)
 			)
 			(pin output line
-				(at 6.35 3.81 90)
+				(at 5.08 -13.97 90)
 				(length 2.54)
 				(name "Trig"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Knock"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "K"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Knock_0_1"
+			(rectangle
+				(start 2.54 1.27)
+				(end 11.43 -7.62)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Knock_1_1"
+			(pin output line
+				(at 5.08 1.27 270)
+				(length 2.54)
+				(name "KNK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 8.89 1.27 270)
+				(length 2.54)
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -678,7 +778,7 @@
 		(symbol "LSU49_0_1"
 			(rectangle
 				(start 2.54 1.27)
-				(end 26.67 -7.62)
+				(end 26.67 -8.89)
 				(stroke
 					(width 0)
 					(type default)
@@ -690,7 +790,7 @@
 		)
 		(symbol "LSU49_1_1"
 			(pin output line
-				(at 5.08 1.27 90)
+				(at 5.08 1.27 270)
 				(length 2.54)
 				(name "Un"
 					(effects
@@ -708,7 +808,7 @@
 				)
 			)
 			(pin output line
-				(at 8.89 1.27 90)
+				(at 8.89 1.27 270)
 				(length 2.54)
 				(name "Rtrim"
 					(effects
@@ -726,7 +826,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 1.27 90)
+				(at 12.7 1.27 270)
 				(length 2.54)
 				(name "VM"
 					(effects
@@ -744,7 +844,7 @@
 				)
 			)
 			(pin output line
-				(at 16.51 1.27 90)
+				(at 16.51 1.27 270)
 				(length 2.54)
 				(name "IP"
 					(effects
@@ -762,7 +862,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 1.27 90)
+				(at 20.32 1.27 270)
 				(length 2.54)
 				(name "H-"
 					(effects
@@ -780,7 +880,7 @@
 				)
 			)
 			(pin input line
-				(at 24.13 1.27 90)
+				(at 24.13 1.27 270)
 				(length 2.54)
 				(name "12v_in"
 					(effects
@@ -862,7 +962,7 @@
 		)
 		(symbol "MAP_1_1"
 			(pin input line
-				(at 3.81 1.27 90)
+				(at 3.81 1.27 270)
 				(length 2.54)
 				(name "5V"
 					(effects
@@ -880,7 +980,7 @@
 				)
 			)
 			(pin output line
-				(at 7.62 1.27 90)
+				(at 7.62 -6.35 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -898,7 +998,7 @@
 				)
 			)
 			(pin output line
-				(at 11.43 1.27 90)
+				(at 11.43 -6.35 90)
 				(length 2.54)
 				(name "SIG"
 					(effects
@@ -1104,7 +1204,7 @@
 		(symbol "PPS_0_1"
 			(rectangle
 				(start 2.54 1.27)
-				(end 19.05 -7.62)
+				(end 19.05 -13.97)
 				(stroke
 					(width 0)
 					(type default)
@@ -1116,7 +1216,7 @@
 		)
 		(symbol "PPS_1_1"
 			(pin input line
-				(at 5.08 1.27 90)
+				(at 5.08 1.27 270)
 				(length 2.54)
 				(name "5v_in"
 					(effects
@@ -1134,7 +1234,7 @@
 				)
 			)
 			(pin output line
-				(at 8.89 1.27 90)
+				(at 8.89 1.27 270)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1152,7 +1252,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 1.27 90)
+				(at 12.7 1.27 270)
 				(length 2.54)
 				(name "PPS_Prime"
 					(effects
@@ -1170,7 +1270,7 @@
 				)
 			)
 			(pin output line
-				(at 16.51 1.27 90)
+				(at 16.51 1.27 270)
 				(length 2.54)
 				(name "PPS_Sec"
 					(effects
@@ -1194,7 +1294,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "TM"
+		(property "Reference" "P"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1240,7 +1340,7 @@
 		(symbol "Pressure_Generic_0_1"
 			(rectangle
 				(start 1.27 1.27)
-				(end 17.78 -8.89)
+				(end 13.97 -8.89)
 				(stroke
 					(width 0)
 					(type default)
@@ -1252,7 +1352,7 @@
 		)
 		(symbol "Pressure_Generic_1_1"
 			(pin input line
-				(at 3.81 1.27 90)
+				(at 3.81 1.27 270)
 				(length 2.54)
 				(name "5V"
 					(effects
@@ -1270,7 +1370,7 @@
 				)
 			)
 			(pin output line
-				(at 7.62 1.27 90)
+				(at 7.62 -8.89 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1288,27 +1388,9 @@
 				)
 			)
 			(pin output line
-				(at 11.43 1.27 90)
+				(at 11.43 -8.89 90)
 				(length 2.54)
 				(name "P-SIG"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 15.24 1.27 90)
-				(length 2.54)
-				(name "T-SIG"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1388,9 +1470,9 @@
 		)
 		(symbol "Relay_1_1"
 			(pin input line
-				(at 6.35 1.27 90)
+				(at 6.35 1.27 270)
 				(length 2.54)
-				(name "85"
+				(name "86"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1406,9 +1488,9 @@
 				)
 			)
 			(pin input line
-				(at 6.35 -10.16 270)
+				(at 6.35 -10.16 90)
 				(length 2.54)
-				(name "30"
+				(name "85"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1424,9 +1506,9 @@
 				)
 			)
 			(pin input line
-				(at 10.16 1.27 90)
+				(at 10.16 1.27 270)
 				(length 2.54)
-				(name "86"
+				(name "30"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1442,7 +1524,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 -10.16 270)
+				(at 10.16 -10.16 90)
 				(length 2.54)
 				(name "87"
 					(effects
@@ -1524,7 +1606,7 @@
 		)
 		(symbol "TMAP_1_1"
 			(pin input line
-				(at 3.81 1.27 90)
+				(at 3.81 1.27 270)
 				(length 2.54)
 				(name "5V"
 					(effects
@@ -1542,7 +1624,7 @@
 				)
 			)
 			(pin output line
-				(at 7.62 1.27 90)
+				(at 7.62 -8.89 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1560,7 +1642,7 @@
 				)
 			)
 			(pin output line
-				(at 11.43 1.27 90)
+				(at 11.43 -8.89 90)
 				(length 2.54)
 				(name "P-SIG"
 					(effects
@@ -1578,7 +1660,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 1.27 90)
+				(at 15.24 -8.89 90)
 				(length 2.54)
 				(name "T-SIG"
 					(effects
@@ -1648,7 +1730,7 @@
 		(symbol "TPS_0_1"
 			(rectangle
 				(start 2.54 1.27)
-				(end 15.24 -7.62)
+				(end 15.24 -12.7)
 				(stroke
 					(width 0)
 					(type default)
@@ -1660,7 +1742,7 @@
 		)
 		(symbol "TPS_1_1"
 			(pin input line
-				(at 5.08 1.27 90)
+				(at 5.08 1.27 270)
 				(length 2.54)
 				(name "5v_in"
 					(effects
@@ -1678,7 +1760,7 @@
 				)
 			)
 			(pin output line
-				(at 8.89 1.27 90)
+				(at 8.89 1.27 270)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1696,7 +1778,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 1.27 90)
+				(at 12.7 1.27 270)
 				(length 2.54)
 				(name "TPS_Prime"
 					(effects
@@ -1720,7 +1802,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "AT"
+		(property "Reference" "TE"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1778,7 +1860,7 @@
 		)
 		(symbol "Temp_1_1"
 			(pin input line
-				(at 5.08 1.27 90)
+				(at 5.08 1.27 270)
 				(length 2.54)
 				(name "AT_in"
 					(effects
@@ -1796,7 +1878,7 @@
 				)
 			)
 			(pin output line
-				(at 8.89 1.27 90)
+				(at 8.89 -7.62 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1878,7 +1960,7 @@
 		)
 		(symbol "VR_1_1"
 			(pin output line
-				(at 3.81 2.54 90)
+				(at 3.81 2.54 270)
 				(length 2.54)
 				(name "VR+"
 					(effects
@@ -1896,7 +1978,7 @@
 				)
 			)
 			(pin output line
-				(at 7.62 2.54 90)
+				(at 7.62 2.54 270)
 				(length 2.54)
 				(name "VR-"
 					(effects
